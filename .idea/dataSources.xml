@@ -4,7 +4,9 @@
     <data-source source="LOCAL" name="Django default" uuid="201d45df-f391-4bc5-8bcc-d1aac0b9e565">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:/tmp/db.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/sbjj</jdbc-url>
+      <user-name>sbjj</user-name>
+      <user-password>dfd9dfc8dfc0dfc0</user-password>
       <libraries>
         <library>
           <url>file://$USER_HOME$/Library/Preferences/PyCharm30/jdbc-drivers/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar</url>

@@ -88,7 +88,19 @@ TEMPLATE_DIRS = (
     os.path.join(BASE_DIR,  'templates'),
 )
 
+
+DEBUG = True
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'sbjj',
+        'USER': 'sbjj',
+        'PASSWORD': 'sbjj',
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
+    }
+}
+
 if os.environ.get('DEVELOPMENT', None):
     from settings_dev import *
-else:
-    from settings_prod import *
