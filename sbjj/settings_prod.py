@@ -1,6 +1,6 @@
 __author__ = 'elliottohara'
 
-
+DEBUG = True
 
 DATABASES = {
     'default': {
